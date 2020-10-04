@@ -55,7 +55,7 @@ public class BankAccountController {
     }
 
     @PostMapping("/delete/{id}")
-    public String deleteAccount(@PathVariable int id,
+    public String deleteBankAccount(@PathVariable int id,
                               @ModelAttribute BankAccount bankAccount,
                               Model model) {
 
